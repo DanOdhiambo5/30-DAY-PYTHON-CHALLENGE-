@@ -1,57 +1,39 @@
 # Personal Expense Tracker 💰
 
-A simple command-line expense tracker built with Python as part of my 30-Day Python Challenge (Day 7).
+A beginner-friendly command-line expense tracker built with Python for Day 7 of my 30-Day Python Challenge.
 
 ## Features
 
 - Add an expense with a description, category, and amount.
 - View all recorded expenses.
 - Calculate total spending.
-- View spending totals grouped by category.
-- Validate user input:
-  - Description and category cannot be empty.
-  - Expense amounts must be valid numbers greater than zero.
-  - Menu choices must be between 1 and 5.
+- Check that description and category are not empty.
+- Reject invalid or non-positive expense amounts.
 
-## Concepts Practised
+## Python Concepts Practised
 
-- Variables and user input
 - Lists and dictionaries
-- Loops and conditional statements
+- Variables and user input
+- Loops and conditions
 - Functions
-- Exception handling with `try` and `except`
-- Working with dictionary data and calculating totals
+- Basic input validation with `try` and `except`
 
 ## Requirements
 
 - Python 3
-- No external packages are required.
+- No external packages required.
 
 ## How to Run
 
-1. Clone the repository:
+From the repository folder, run:
 
-   ```bash
-   git clone https://github.com/DanOdhiambo5/30-DAY-PYTHON-CHALLENGE-.git
-   ```
+```bash
+python day7_expense_tracker/expense_tracker.py
+```
 
-2. Open the project folder:
+## Note
 
-   ```bash
-   cd 30-DAY-PYTHON-CHALLENGE-/day7_expense_tracker
-   ```
-
-3. Run the program:
-
-   ```bash
-   python expense_tracker.py
-   ```
-
-## How It Works
-
-The program stores expenses in a list. Each expense is a dictionary containing its description, category, and amount. A menu lets the user add expenses or view spending summaries.
-
-**Note:** This beginner version stores data in memory only. Expenses are cleared when the program exits. Persistent file storage can be added in a future improvement.
+This simple version stores expenses in memory. All records are cleared when the program exits. File storage can be added as a future improvement.
 
 ## Author
 
