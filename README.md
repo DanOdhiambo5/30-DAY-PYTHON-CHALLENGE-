@@ -20,16 +20,19 @@ This repository documents my progress through the challenge, combining GitHub be
 | 1 | Check my GitHub profile and confirm that my commit email is correct | Completed |
 | 2 | Improve the README for the SMP Performance Coach project | Completed |
 | 3 | Add comments explaining the SMP Python code | Completed |
-| 4 | Complete Python practice exercises | Completed |
-| 5 | Complete additional Python exercises | Completed |
-| 6 | Build an Athlete Management Tracker | Completed |
-| 7–30 | Upcoming challenge tasks | In progress |
+| 4 | Practise Python lists and dictionaries | Completed |
+| 5 | Build a simple expense tracker in Python | Completed |
+| 6 | Add input validation to the expense tracker | Completed |
+| 7 | Upload the expense tracker to GitHub with a README | Completed |
+| 8–30 | Upcoming challenge tasks | In progress |
 
 Days 1–3 focused on GitHub profile and portfolio improvements. They were not Python projects intended to be pushed into this repository.
 
-## 🚀 Featured Project: Athlete Management Tracker
+## 🚀 Featured Projects
 
-The Day 6 project uses Python to manage a collection of athlete records.
+### Day 6: Athlete Management Tracker
+
+A Python project for managing a collection of athlete records.
 
 It demonstrates how to:
 
@@ -40,17 +43,44 @@ It demonstrates how to:
 - Add new athletes.
 - Search for an athlete by name.
 
-The tracker uses sample athlete records containing names, ages, and scores.
+Run it with:
+
+```bash
+python 6_athlete_tracker.py
+```
+
+### Day 7: Personal Expense Tracker
+
+A command-line application for recording expenses and reviewing spending.
+
+Features include:
+
+- Add expenses with a description, category, and amount.
+- View all recorded expenses.
+- Calculate total spending.
+- View spending totals by category.
+- Validate text input and ensure amounts are positive numbers.
+
+The project uses a list of dictionaries to store expense records and Python functions to organise the program.
+
+Run it with:
+
+```bash
+python day7_expense_tracker/expense_tracker.py
+```
+
+The current version stores expenses in memory, so records reset when the program exits.
 
 ## 📁 Project Structure
 
-| File | Description |
+| File / Folder | Description |
 |---|---|
 | `6_athlete_tracker.py` | Main athlete management project |
 | `athletes.py` | Practice with lists and list operations |
 | `athletes_database.py` | Store and display multiple athlete records |
 | `athlete_dictionary.py` | Practice with Python dictionaries |
 | `functions.py` | Function practice using a project-cost calculator |
+| `day7_expense_tracker/` | Day 7 expense tracker and its README |
 
 ## 🛠️ Technologies
 
@@ -72,13 +102,14 @@ Enter the project folder:
 cd 30-DAY-PYTHON-CHALLENGE-
 ```
 
-Run the Day 6 athlete tracker:
+Run either project:
 
 ```bash
 python 6_athlete_tracker.py
+python day7_expense_tracker/expense_tracker.py
 ```
 
-No external Python packages are required for the current exercises.
+No external Python packages are required for the current projects.
 
 ## 📈 Learning Approach
 
